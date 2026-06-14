@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Olumoye | Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Geist:wght@400;500;600;700;800&family=Geist+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <header id="site-header">
+      <nav class="nav-inner container">
+        <a href="#home" class="nav-logo">John Olumoye</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <!-- HERO -->
+      <section id="home" class="section section--hero">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <span class="hero-badge">Available for Hire</span>
+            <h1 class="hero-headline">Hi, I'm a <em>Frontend Developer</em></h1>
+            <p class="hero-description">
+              Passionate about building highly interactive and accessible web
+              experiences. Currently expanding my expertise into full-stack
+              development with a focus on React and Node.js.
+            </p>
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn btn--primary">View Projects</a>
+              <a href="#contact" class="btn btn--secondary">Contact Me</a>
+            </div>
+          </div>
+          <div class="hero-image-wrap">
+            <img
+              class="hero-image"
+              src="my pic.jpg"
+              alt="John Olumoye — Frontend Developer"
+              width="350"
+              height="400"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section section--about">
+        <div class="container about-grid">
+          <div class="about-bio">
+            <h2 class="section-heading">About Me</h2>
+            <p class="body-text">
+              Frontend Developer with professional experience delivering web and
+              mobile applications in fast-paced environments. Experienced in
+              building responsive and scalable interfaces using React.js,
+              TypeScript, and Tailwind CSS, with a strong understanding of API
+              integration and modern frontend workflows. Adept at collaborating
+              with teams, solving UI challenges, and turning product ideas into
+              functional user experiences. Some of the projects I have worked on
+              include FilmVerse, Kudiflow, NewsHorizon, and Vendoor. I enjoy
+              solving problems with code, learning new technologies, and
+              contributing to real-world products in collaborative teams. Let's
+              connect!
+            </p>
+          </div>
+          <div class="about-traits">
+            <article class="trait-card">
+              <span class="trait-icon">&#9889;</span>
+              <h3 class="trait-title">Fast Learner</h3>
+              <p class="trait-description">
+                Quickly adapting to new frameworks and evolving web standards.
+              </p>
+            </article>
+            <article class="trait-card">
+              <span class="trait-icon">&#10021;</span>
+              <h3 class="trait-title">Problem Solver</h3>
+              <p class="trait-description">
+                Approaching complex bugs with a methodical, step-by-step logic.
+              </p>
+            </article>
+            <article class="trait-card">
+              <span class="trait-icon">&#60;&#47;&#62;</span>
+              <h3 class="trait-title">Clean Code</h3>
+              <p class="trait-description">
+                Prioritizing maintainability and readability in every commit.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section section--skills">
+        <div class="container">
+          <h2 class="section-heading section-heading--centered">
+            Technical Skills
+          </h2>
+          <ul class="skills-list">
+            <li class="skill-chip">HTML5</li>
+            <li class="skill-chip">CSS3</li>
+            <li class="skill-chip">JavaScript (ES6+)</li>
+            <li class="skill-chip">React.js</li>
+            <li class="skill-chip">Node.js</li>
+            <li class="skill-chip">Express.js</li>
+            <li class="skill-chip">MongoDB</li>
+            <li class="skill-chip">Git</li>
+            <li class="skill-chip">GitHub</li>
+            <li class="skill-chip">Tailwind CSS</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section section--projects">
+        <div class="container">
+          <div class="projects-header">
+            <h2 class="section-heading">Featured Projects</h2>
+            <p class="section-subheading">
+              A selection of my recent work and experiments.
+            </p>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-image-wrap">
+                <img
+                  class="project-image"
+                  src="kud.png"
+                  alt="Kudiflow project screenshot"
+                  width="300"
+                  height="300"
+                />
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">KudiFlow Web App</h3>
+                <p class="project-description">
+                  Send and receive money on KudiFlow with seamless transaction.
+                </p>
+                <ul class="project-tags">
+                  <li class="skill-chip">Reactjs</li>
+                  <li class="skill-chip">Typescript</li>
+                  <li class="skill-chip">Tailwindcss</li>
+                </ul>
+                <button class="btn btn--primary btn--sm">View Project</button>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image-wrap">
+                <img
+                  class="project-image"
+                  src="newshhh02.png""
+                     alt="Blog website project screenshot"
+                />
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Blog Website</h3>
+                <p class="project-description">
+                  Platform for getting informations around the world.
+                </p>
+                <ul class="project-tags">
+             <li class="skill-chip">Reactjs</li>
+                  <li class="skill-chip">Typescript</li>
+                  <li class="skill-chip">Tailwindcss</li>
+                </ul>
+                <button class="btn btn--primary btn--sm">View Project</button>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image-wrap">
+                <img
+                  class="project-image"
+                  src="kwiikpos01.png"      
+                  alt="Portfolio Website project screenshot" width="300" height="300"
+                />
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Kwiikpos website</h3>
+                <p class="project-description">
+                  A plaform that enables business to audit, manage staff, and stock inventory.
+                </p>
+                <ul class="project-tags">
+                  <li class="skill-chip">Reactjs</li>
+                  <li class="skill-chip">React Native</li>
+                  <li class="skill-chip">Typescript</li>
+                  <li class="skill-chip">Tailwindcss</li>
+                </ul>
+                <button class="btn btn--primary btn--sm">View Project</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section section--contact">
+        <div class="container contact-grid">
+          <div class="contact-info">
+            <h2 class="section-heading">Get In Touch</h2>
+            <p class="body-text">
+              I'm currently looking for new opportunities and collaborations.
+              Whether you have a question or just want to say hi, I'll try my
+              best to get back to you!
+            </p>
+            <div class="contact-details">
+              <div class="contact-detail-item">
+                <p class="contact-label">Email</p>
+                <a href="mailto:hello@johndev.com" class="contact-link"
+                  >hello@johndev.com</a
+                >
+              </div>
+              <div class="contact-detail-item">
+                <p class="contact-label">Social</p>
+                <div class="contact-social-links">
+                  <a href="#" class="contact-link">LinkedIn</a>
+                  <a href="#" class="contact-link">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="form-group">
+              <label class="form-label" for="name">Full Name</label>
+              <input
+                class="form-input"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Jane Doe"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email Address</label>
+              <input
+                class="form-input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="jane@example.com"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="message">Message</label>
+              <textarea
+                class="form-input form-textarea"
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Your message..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <strong class="footer-name">John Olumoye</strong>
+          <p class="footer-copy">
+            &copy; 2026 John Olumoye. Built with precision.
+          </p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#" class="footer-link">LinkedIn</a>
+          <a href="#" class="footer-link">GitHub</a>
+          <a href="#" class="footer-link">Twitter</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
