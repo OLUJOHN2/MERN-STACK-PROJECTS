@@ -1,0 +1,4 @@
+show dbs 
+db.getName() 
+db.collectionName.insertOne({}) 
+show collections

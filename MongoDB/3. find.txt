@@ -1,0 +1,6 @@
+db.student.find() 
+db.student.find({"name": "alex"}) 
+db.student.find({"name": "alex", age: 20}) 
+db.student.find({"name": "alex"}, {"name": 1)  
+db.student.find({"name": "alex"}, {"name": 1) 
+db.student.find({}, {"name": 1}) 

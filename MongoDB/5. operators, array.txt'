@@ -1,0 +1,2 @@
+db.collectionName.find({price: ${$lt: 200}}) 
+db.collectionName.find({price: ${$gt: 200}}) 

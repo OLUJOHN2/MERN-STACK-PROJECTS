@@ -1,0 +1,5 @@
+db.collectionName.find().count
+db.collectionName.find().limit(2) 
+db.collectionName.find({}, {"name": 1}).sort({"name": 1}) 
+db.collectionName.find({}, {"name": 1}).sort({"name": -1}) 
+db.collectionName.find({}, {"name": 1}).sort({"name": 1}).skip(1)
