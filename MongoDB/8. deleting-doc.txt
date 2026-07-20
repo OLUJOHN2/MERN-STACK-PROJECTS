@@ -1,0 +1,7 @@
+db.collectionName.deleteOne({filter: "filtername"})
+db.collectionName.deleteMany({filter: "filtername"}) 
+
+db.collectionName.drop()
+
+If you wanna drop the database first you have to switch to that database then use 👇
+db.dropDatabase() it will delete your current active database.

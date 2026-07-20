@@ -1,0 +1,5 @@
+const results = db.movies.find().toArray()
+console.table(results)
+
+db.movies.deleteOne.help() 
+db.movies.deleteMany.help()
