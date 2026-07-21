@@ -19,9 +19,9 @@ const DATABASE_URL =
 connectDB(DATABASE_URL);
 
 // Create & Save Document
-createDoc();
+// createDoc();
 
-insertManyDocs();
+// insertManyDocs();
 
 // allDocs();
 // getSingleDoc();
@@ -35,10 +35,10 @@ insertManyDocs();
 
 // updateByID();
 // updateOne("649ab23e38eecfddee75ea63");
-updateMany();
+// updateMany();
 
 // deleteOne("649ab23e38eecfddee75ea65");
-deleteMany();
+// deleteMany();
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
